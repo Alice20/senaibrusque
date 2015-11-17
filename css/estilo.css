@@ -41,3 +41,28 @@ body{
 #section5 {padding-top:50px;height:700px;color: #fff; background-color: #1E88E5; box-shadow: 0px 0px 10px black;}
 #section6 {padding-top:50px;height:700px;color: #fff; background-color: #673ab7; box-shadow: 0px 0px 10px black;}
 #section7 {padding-top:50px;height:700px;color: #fff; background-color: #ff9800; box-shadow: 0px 0px 10px black;}
+
+
+/**
+Carrossel de imagens
+*/
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 80%; height: 500px;
+      margin: auto;
+  }
+ 
+  /**
+  Personalizar o ícone de dentro de formulário
+  */
+  .has-feedback{
+      color: darkslategray;
+  }
+  
+  iframe{
+      
+     box-shadow: 2px 0px 4px black; 
+  }
+  
+ 
