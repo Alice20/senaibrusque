@@ -1,10 +1,35 @@
 
 /* 
-    Created on : 13/11/2015, 21:35:59
-    Author     : Alice Orlandi
+    Criado em : 13/11/2015, 21:35:15
+    Autor     : Allan
 */
-
 #topo{
     background-color: #017338;
-    
+    color: whitesmoke;
 }
+body{
+    position: relative; 
+}
+.jumbotron{
+    margin-bottom: 0px;
+}
+.affix{
+    top:0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+.navbar{
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+.affix ~ .container-fluid {
+    position: relative;
+    top: 0px;
+}
+#section1 {padding-top:50px;height:700px;color: #fff; background-color: #1E88E5}
+#section2 {padding-top:50px;height:700px;color: #fff; background-color: #673ab7; box-shadow: 0px 0px 10px black;}
+#section3 {padding-top:50px;height:700px;color: #fff; background-color: #ff9800; box-shadow: 0px 0px 10px black;}
+#section4 {padding-top:50px;height:700px;color: #fff; background-color: #00bcd4; box-shadow: 0px 0px 10px black;}
+#section5 {padding-top:50px;height:700px;color: #fff; background-color: #1E88E5; box-shadow: 0px 0px 10px black;}
+#section6 {padding-top:50px;height:700px;color: #fff; background-color: #673ab7; box-shadow: 0px 0px 10px black;}
+#section7 {padding-top:50px;height:700px;color: #fff; background-color: #ff9800; box-shadow: 0px 0px 10px black;}
