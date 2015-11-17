@@ -11,7 +11,7 @@
         <!-- Javascript -->
         <script src="js/jquery-1.11.3.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
-        <script src="js/myScript.js"></script>
+        <script src="js/meuscript.js"></script>
     </head>
     <body data-spy="scroll" data-target=".navbar" data-offset="50">
         <header class="jumbotron text-center" id="topo">
@@ -19,7 +19,7 @@
             <p>Ola mundo do Bootstrap</p>
             <form role="form">
                 <div class="form-inline">
-                    <div class="input-group input-group-sm">
+                    <div class="input-group input-group-md">
                         <span class="input-group-addon">
                             <span class="glyphicon glyphicon-envelope"></span>
                         </span>

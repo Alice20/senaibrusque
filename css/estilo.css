@@ -21,7 +21,15 @@ body{
 .navbar{
     margin-bottom: 0px;
     border-radius: 0px;
+    background: #115c35;
 }
+
+.navbar-brand{
+    font-size:2em;   
+    font-weight: bold;
+}
+
+
 .affix ~ .container-fluid {
     position: relative;
     top: 0px;
