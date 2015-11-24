@@ -86,7 +86,7 @@
                 Sistema de Grid no Bootstrap
                 http://www.w3schools.com/bootstrap/bootstrap_grid_examples.asp
                 -->
-           <div class="col-lg-8 col-lg-offset-2">
+                <div class="col-lg-8 col-lg-offset-2">
                     <div id="myCarousel" class="carousel slide" data-ride="carousel" data-pause="hover" data-interval="2000">
                         <!-- Indicators -->
                         <ol class="carousel-indicators">
@@ -97,71 +97,71 @@
                         </ol>
 
                         <!-- Wrapper for slides -->
-                        
-                <div class="carousel-inner" role="listbox">
-                    <div class="item active">
-                        <img src="http://www.tornosmecanico.com.br/wp-content/uploads/139342.jpg" alt="Chania">
+
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img src="http://www.tornosmecanico.com.br/wp-content/uploads/139342.jpg" alt="Chania">
+                            </div>
+
+                            <div class="item">
+                                <img src="http://www.colunistas.com/anos/pc2012/rj/design/SISTEMA_FIRJAN-senai_moda_design(design)-3.jpg" alt="Chania">
+                            </div>
+
+                            <div class="item">
+                                <img src="http://www.galaxcms.com.br/imgs_redactor/273/images/programador-web-1.jpg" alt="Flower">
+                            </div>
+
+                            <div class="item">
+                                <img src="http://www.duochic.fr/images/guide-des-tailles.jpg" alt="Flower">
+                            </div> 
+
+                            <div class="item">
+                                <img src="http://mlb-s2-p.mlstatic.com/torno-mecnico-senai-completo-14227-MLB2891560110_072012-O.jpg" alt="Flower">
+                            </div>
+
+                            <div class="item">
+                                <img src="http://www.florania.rn.gov.br/wp-content/uploads/2014/09/PRONATEC.jpg" alt="Flower">
+                            </div>
+
+                            <div class="item">
+                                <img src="http://www2.fiescnet.com.br/web/uploads/release_noticia/medium/9f7b22c68ed08cea6d2464c1f18c85f6.jpg" alt="Flower">
+                            </div>
+
+
+                            <div class="item">
+                                <img src="http://www.diplomatafm.com.br/2012/arquivos/noticias/fotos/0575094001340966024/5b031c9903448d89f710eaa7033e4dc2.jpg" alt="Flower">
+                            </div> 
+
+                            <div class="item">
+                                <img src="http://saborbelga.com/wp-content/uploads/2014/05/Senai_Brusque.jpg" alt="Flower">
+                            </div> 
+
+                            <div class="item">
+                                <img src="http://infograficos.estadao.com.br/uploads/galerias/7353/74526.jpg" alt="Flower">
+                            </div> 
+
+                            <div class="item">
+                                <img src="http://cdn1.sempretops.com/wp-content/uploads/T%C3%AAxtil-e-Vestu%C3%A1rio-Design-de-Moda-Designer-02.png" alt="Flower">
+                            </div> 
+
+                            <div class="item">
+                                <img src="http://www.rededecursos.com.br/wp-content/uploads/2014/09/cursos-senai.jpg" alt="Flower">
+                            </div> 
+
+
+                            <!-- Left and right controls -->
+                            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
                     </div>
-
-                    <div class="item">
-                        <img src="http://www.colunistas.com/anos/pc2012/rj/design/SISTEMA_FIRJAN-senai_moda_design(design)-3.jpg" alt="Chania">
-                    </div>
-
-                    <div class="item">
-                        <img src="http://www.galaxcms.com.br/imgs_redactor/273/images/programador-web-1.jpg" alt="Flower">
-                    </div>
-
-                    <div class="item">
-                        <img src="http://www.duochic.fr/images/guide-des-tailles.jpg" alt="Flower">
-                    </div> 
-
-                    <div class="item">
-                        <img src="http://mlb-s2-p.mlstatic.com/torno-mecnico-senai-completo-14227-MLB2891560110_072012-O.jpg" alt="Flower">
-                    </div>
-
-                    <div class="item">
-                        <img src="http://www.florania.rn.gov.br/wp-content/uploads/2014/09/PRONATEC.jpg" alt="Flower">
-                    </div>
-
-                    <div class="item">
-                        <img src="http://www2.fiescnet.com.br/web/uploads/release_noticia/medium/9f7b22c68ed08cea6d2464c1f18c85f6.jpg" alt="Flower">
-                    </div>
-
-
-                    <div class="item">
-                        <img src="http://www.diplomatafm.com.br/2012/arquivos/noticias/fotos/0575094001340966024/5b031c9903448d89f710eaa7033e4dc2.jpg" alt="Flower">
-                    </div> 
-
-                    <div class="item">
-                        <img src="http://saborbelga.com/wp-content/uploads/2014/05/Senai_Brusque.jpg" alt="Flower">
-                    </div> 
-
-                    <div class="item">
-                        <img src="http://infograficos.estadao.com.br/uploads/galerias/7353/74526.jpg" alt="Flower">
-                    </div> 
-
-                    <div class="item">
-                        <img src="http://cdn1.sempretops.com/wp-content/uploads/T%C3%AAxtil-e-Vestu%C3%A1rio-Design-de-Moda-Designer-02.png" alt="Flower">
-                    </div> 
-
-                    <div class="item">
-                        <img src="http://www.rededecursos.com.br/wp-content/uploads/2014/09/cursos-senai.jpg" alt="Flower">
-                    </div> 
-
-
-                   <!-- Left and right controls -->
-                        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div>
-                </div>
-            </div> <!-- row -->
-            <!-- fim do carrossel de imagens -->
+                </div> <!-- row -->
+                <!-- fim do carrossel de imagens -->
         </section>
 
         <section id="cursos" class="container-fluid">
@@ -189,37 +189,7 @@
             </div>
         </section>
 
-        <section id="contato" class="container-fluid">
-            <h1>Contato</h1>
-            <div class="row">
-                <div class="col-md-4">
-                    <p>Entre em contato, responderemos nas próximas 24 horas</p>
-                    <p><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>
-                        Brusque/SC
-                    </p>
-                    <p>
-                        <i class="glyphicon glyphicon-phone-alt" aria-hidden="true"></i>
-                        +55 (47) 3251-8900
-                    </p>
-                    <p>
-                        <i class="glyphicon glyphicon-envelope" aria-hidden="true"></i>
-                        brusque@fiesc.com.br
-                    </p>
-                </div>
-                <div class="col-md-8">
-                    <form>
-                        <div class="form-inline">
-                                <input type="text" class="form-control" id="cNome" placeholder="Nome">
-                                <input type="email" class="form-control" id="cEmail" placeholder="E-mail">
-                        </div>
-                        <textarea class="form-control" rows="5" cols="40" id="cMensagem" placeholder="Mensagem"></textarea>
-                        <button type="submit" class="btn btn-default">Enviar</button>
-                    </form>
-                </div>
-            </div>
-
-
-        </section>
+        <?php include 'formContato.php'; ?>
 
         <section id="local" class="container-fluid">
             <div class="text-center">
@@ -228,7 +198,12 @@
             </div>
         </section>
 
+        <!-- Javascript -->
+        <script src="js/jquery-1.11.3.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/validator.js"></script>
         <script src="js/meuscript.js"></script>
+        <script src="js/formScript.js"></script>
 
     </body>
 </html>
