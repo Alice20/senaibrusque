@@ -24,16 +24,16 @@
             <h1>SENAI/SC Brusque</h1>
             <p>Alo Ha mundo do Bootstrap</p>
 
-            <form role="form" class="form-inline">
+            <form id="newsletter" action="Cadastro/cadastro.php" method="post" role="form" class="form-inline">
                 <!-- Gerador de Bootstrap Form 
                      http://embed.plnkr.co/ZrnnkFR3Yv9HGQHrRMiW/preview -->
                 <!-- Em caso de sucesso na validação: <div class="form-group has-feedback has-success"> -->
                 <!-- Em caso de falha na validação: <div class="form-group has-feedback has-error"> -->
                 <div class="form-group has-feedback">
-                    <input type="text" class="form-control" placeholder="seunome@provedor.com.br" size="40px"/>
+                    <input type="text" class="form-control" name="email" placeholder="seunome@provedor.com.br" size="40px"/>
                     <i class="form-control-feedback glyphicon glyphicon-envelope"></i>
                 </div>
-                <button type="submit" class="btn btn-success">Cadastrar</button>
+                <button type="submit" name="btn" class="btn btn-success">Cadastrar</button>
             </form>
         </header>
 
