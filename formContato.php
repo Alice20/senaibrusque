@@ -25,7 +25,12 @@
                         <input type="text" class="form-control" id="name" placeholder="Digite seu nome" required data-error="Escreva o seu nome">
                         <div class="help-block with-errors"></div>
                     </div>
-                    <div class="form-group col-sm-6">
+                   div class="form-group col-sm-6">
+                        <label for="email" class="h4">E-mail</label>
+                        <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail" required data-error="Escreva o seu e-mail">
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div> <div class="form-group col-sm-6">
                         <label for="email" class="h4">E-mail</label>
                         <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail" required data-error="Escreva o seu e-mail">
                         <div class="help-block with-errors"></div>

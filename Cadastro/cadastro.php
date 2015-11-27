@@ -57,6 +57,8 @@ if (isset($_POST['btn'])) {
         $p = $conn->prepare($sql);
         $q = $p->execute($parametros);
         
+        header("Location: ../index.php");
+        
         /**
          * Envio de e-mail para confirmação
          */
@@ -76,7 +78,7 @@ if (isset($_POST['btn'])) {
          * ----------------------------------
          */
         //Listagem de e-mails
-        header('Location: cadastro.php?cod=listar');
+       /**header('Location: cadastro.php?cod=listar');
         
         /**
          * Tarefa de casa
@@ -84,7 +86,8 @@ if (isset($_POST['btn'])) {
          * com o código, para a pessoa clicar
          * e confirmar seu e-mail
          */
-    } else {
+            
+     /**   } else {
         header('Location: ../index.php');
     }
 } elseif (isset($_GET['cod'])) {
@@ -133,10 +136,16 @@ if (isset($_POST['btn'])) {
         $q = $p->execute(array(':hash'=>$hash));
         
         header("Location: cadastro.php?cod=listar");
+    
+   */
     }
+    
+            
     //Atualização da situação cadastral
     //Confirmação de e-mail
     elseif($_GET['cod'] == 'e' && isset ($_GET['hash'])){
+    }
+        
         
         $sql = "update newsletter set situacao=1, "
                 . "dtAtualizacao = now() where cod = :hash";
@@ -152,7 +161,7 @@ if (isset($_POST['btn'])) {
         header("Location: cadastro.php?cod=listar");
     }
     //Validação do e-mail
-} else {
+else {
     //Botão cadastrar não foi pressionado
     //E nem o código foi passado
     //Redireciona para a página inicial
