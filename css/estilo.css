@@ -43,7 +43,7 @@ Seções
 */
 #inicio {padding-top:50px;height:500px;color: darkslategrey; background-color: whitesmoke; padding: 0;}
 #cursos {padding-top:50px;height:600px;color: darkslategrey; background-color: whitesmoke;}
-#noticias {padding-top:50px;height:500px;color: darkslategrey; background-color: whitesmoke;}
+#noticias {padding-top:50px;height:700px;color: darkslategrey; background-color: whitesmoke;}
 #fotos {padding-top:50px;height:500px;color: darkslategrey; background-color: whitesmoke;}
 #videos {padding-top:50px;height:500px;color: darkslategrey; background-color: whitesmoke;}
 #contato {padding-top:50px;height:auto;color: darkslategrey; background-color: whitesmoke;}
@@ -97,4 +97,24 @@ Personalizar o ícone de dentro de formulário
 /*Estlizando o formulário de contato*/
 #contactForm .h4{
     color: darkslategrey; 
+}
+
+
+.thumbnail{
+    
+    height: 260px;
+}
+
+
+.caption h3{
+    
+    color: green;
+}
+
+
+.modal-dialog{
+    
+    position: absolute;
+    margin-top:15%;
+    margin-left:25%;
 }
