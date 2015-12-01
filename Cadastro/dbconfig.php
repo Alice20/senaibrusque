@@ -4,3 +4,4 @@ $host = 'localhost';
 $dbname = 'sistemasenai';
 $username = 'root';
 $password = '';
+
