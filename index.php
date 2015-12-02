@@ -9,11 +9,8 @@
 
         <!-- CSS -->
         <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/animate.css" />
         <link rel="stylesheet" href="css/estilo.css" />
-
-        <!-- Javascript -->
-        <script src="js/jquery-1.11.3.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
 
 
     </head>
@@ -24,17 +21,8 @@
             <h1>SENAI/SC Brusque</h1>
             <p>Alo Ha mundo do Bootstrap</p>
 
-            <form id="newsletter" action="Cadastro/cadastro.php" method="post" role="form" class="form-inline">
-                <!-- Gerador de Bootstrap Form 
-                     http://embed.plnkr.co/ZrnnkFR3Yv9HGQHrRMiW/preview -->
-                <!-- Em caso de sucesso na validação: <div class="form-group has-feedback has-success"> -->
-                <!-- Em caso de falha na validação: <div class="form-group has-feedback has-error"> -->
-                <div class="form-group has-feedback">
-                    <input type="text" class="form-control" name="email" placeholder="seunome@provedor.com.br" size="40px"/>
-                    <i class="form-control-feedback glyphicon glyphicon-envelope"></i>
-                </div>
-                <button type="submit" name="btn" class="btn btn-success">Cadastrar</button>
-            </form>
+            <?php include 'formCadastro.php' ?>
+
         </header>
 
         <!-- Barra de Navegação -->
@@ -95,7 +83,6 @@
                             <li data-target="#myCarousel" data-slide-to="2"></li>
                             <li data-target="#myCarousel" data-slide-to="3"></li>
                         </ol>
-
                         <!-- Wrapper for slides -->
 
                         <div class="carousel-inner" role="listbox">
@@ -149,7 +136,6 @@
                             </div> 
 
 
-
                             <!-- Left and right controls -->
                             <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
                                 <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -171,85 +157,37 @@
             <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
         </section>
 
-        <section id="noticias" class="container-fluid">
-            <h1>Notícias</h1>
-            <div class="row">
+        <?php include 'noticia.php' ?>
 
-                <div class="col-sm-6 col-md-4">
-                    <div class="thumbnail">                     
-                        <div class="caption">
-                            <h3><center>echo</center></h3>
-                            <hr>
-                            <p><center>A partir do primeiro semestre de 2016, estudantes de Concórdia, Timbó e Rio do Sul poderão contar com novos cursos técnicos do SENAI, entidade da FIESC.</center></p>
-                            <button type="button" class="btn btn-info btn-primary" data-toggle="modal" data-target="#myModal">Ler mais</button>
+        <section id="fotos" class="container-fluid">
+            <h1>Fotos</h1>
+            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+        </section>
 
-                            <div id="myModal" class="modal fade" role="dialog">
-                                <div class="modal-dialog">
+        <section id="videos" class="container-fluid">
+            <div class="text-center">
+                <h1>Galeria Vídeos</h1>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLXTxMOByxQKOZcxIvbgx_93ItPjnbqYIk" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
 
-                                    <!-- Modal content-->
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                            <h4 class="modal-title"><center>Novos cursos em Concórdia, Timbó e Rio do Sul</center></h4>
-                                        </div>
-                                        <div class="modal-body">
-                                            <p><center>A partir do primeiro semestre de 2016, estudantes de Concórdia, Timbó e Rio do Sul poderão contar com novos cursos técnicos do SENAI, entidade da FIESC. A oferta dessas formações foi aprovada em reunião do conselho regional do SENAI, realizada na última quinta-feira (19). Ao todo, 140 vagas serão oferecidas nestes cursos. 
+        <?php include 'formContato.php'; ?>
 
-                                                Em Concórdia, o SENAI passa a ter curso técnico em informática. No município de Timbó, a entidade oferecerá técnico em automação industrial. Já em Rio do Sul, atendendo a uma demanda identificada em painel do Programa de Desenvolvimento Industrial Catarinense, o SENAI passa a oferecer técnico em design de móveis. 
+        <section id="local" class="container-fluid">
+            <div class="text-center">
+                <h1>Localização</h1>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d5972.578301415663!2d-48.91459628134629!3d-27.11484556231412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x94df47b2050e1221%3A0xb0ebeaaf853b447!2sAv.+Primeiro+de+Maio%2C+670+-+Primeiro+de+Maio%2C+Brusque+-+SC%2C+88353-202!3m2!1d-27.1156975!2d-48.910202!5e0!3m2!1spt-BR!2sbr!4v1447800510027" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </section>
 
-                                                Além destes cursos, o SENAI também tem inscrições abertas para outras formações técnicas presenciais e a distância, em todas as regiões do Estado. São mais de uma centena de opções em programas que permitem o acesso a carreiras industriais com maior índice de empregabilidade e com remuneração mais elevada que a média. As inscrições podem ser feitas no site www.sc.senai.br ou nas unidades da instituição. </center></p>
-                                       
-                                        </div>
+        <!-- Javascript -->
+        <script src="js/jquery-1.11.3.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/validator.js"></script>
+        <script src="js/meuscript.js"></script>
+        <script src="js/formScript.js"></script>
+        <script src="js/cadastroScript.js"></script>
 
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                </div>
-
-                 
-
-                            
-                       
-                
-
-
-
-                    </section>
-
-                    <section id="fotos" class="container-fluid">
-                        <h1>Fotos</h1>
-                        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-                        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-                    </section>
-
-                    <section id="videos" class="container-fluid">
-                        <div class="text-center">
-                            <h1>Galeria Vídeos</h1>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLXTxMOByxQKOZcxIvbgx_93ItPjnbqYIk" frameborder="0" allowfullscreen></iframe>
-                        </div>
-                    </section>
-
-                    <?php include 'formContato.php'; ?>
-
-                    <section id="local" class="container-fluid">
-                        <div class="text-center">
-                            <h1>Localização</h1>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d5972.578301415663!2d-48.91459628134629!3d-27.11484556231412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x94df47b2050e1221%3A0xb0ebeaaf853b447!2sAv.+Primeiro+de+Maio%2C+670+-+Primeiro+de+Maio%2C+Brusque+-+SC%2C+88353-202!3m2!1d-27.1156975!2d-48.910202!5e0!3m2!1spt-BR!2sbr!4v1447800510027" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                        </div>
-                    </section>
-
-                    <!-- Javascript -->
-                    <script src="js/jquery-1.11.3.min.js"></script>
-                    <script src="js/bootstrap.min.js"></script>
-                    <script src="js/validator.js"></script>
-                    <script src="js/meuscript.js"></script>
-                    <script src="js/formScript.js"></script>
-                    <script src="js/cadastroScript.js"></script>
-
-                    </body>
-                    </html>
+    </body>
+</html>
