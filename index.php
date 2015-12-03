@@ -22,7 +22,7 @@
             <p>Alo Ha mundo do Bootstrap</p>
 
             <?php include 'formCadastro.php' ?>
-
+           
         </header>
 
         <!-- Barra de Navegação -->
@@ -136,19 +136,20 @@
                             </div> 
 
 
-                            <!-- Left and right controls -->
-                            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
-                        </div>
+                           
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
                     </div>
-                </div> <!-- row -->
-                <!-- fim do carrossel de imagens -->
+                </div>
+            </div> <!-- row -->
+            <!-- fim do carrossel de imagens -->
         </section>
 
         <section id="cursos" class="container-fluid">
@@ -188,6 +189,7 @@
         <script src="js/meuscript.js"></script>
         <script src="js/formScript.js"></script>
         <script src="js/cadastroScript.js"></script>
+        <script src="js/noticia.js"></script>
 
     </body>
 </html>
